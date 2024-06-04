@@ -121,16 +121,19 @@
   <data name="flecha-siguiente" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\logos\flecha-siguiente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="InterroganteRosa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\InterroganteRosa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImagenDuda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\ImagenDuda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="50_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\logos\50_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="google" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\logos\google.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="InterroganteRosa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagenes\InterroganteRosa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ImagenDuda" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagenes\ImagenDuda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Screenshot_2-KBie5JQjt-transformed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\Screenshot_2-KBie5JQjt-transformed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

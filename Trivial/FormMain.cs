@@ -11,10 +11,18 @@ namespace Trivial
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        // Botón Juego Preguntas
+        private void button1_Click_1(object sender, EventArgs e)
         {
-            Form1 form = new Form1(Preguntas());
-            form.ShowDialog();
+            Form1 formPreguntas = new Form1(Preguntas());
+            formPreguntas.ShowDialog();
+        }
+
+        // Juego Ahorcado
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form2 formAhorcado = new Form2(Palabras());
+            formAhorcado.ShowDialog();
         }
 
         private List<Pregunta> Preguntas()
@@ -87,6 +95,44 @@ namespace Trivial
             }
 
             return preguntas;
+        }
+
+        private List<Palabra> Palabras()
+        {
+            List<Palabra> palabras = new List<Palabra>();
+
+            string[] palabra = {
+                "PERSONA",
+                "AGUACATE",
+                "TECLADO",
+                "ESTUDIAR",
+                "TRABAJAR",
+                "CANCIONES",
+                "JUGAR",
+                "PROGRAMACION",
+                "ALEMANIA"
+            };
+
+            string[] pista = {
+                "Tu y yo lo somos",
+                "Mitad agua",
+                "Delante tuya",
+                "Lo que no hace la mayoría",
+                "Lo que le vendria bien a más de uno",
+                "Música",
+                "Lo que se hace por las noches",
+                "Con lo que se ha hecho esta app",
+                "País"
+            };
+
+            // Añadir palabras a la lista
+            for (int i = 0; i < palabra.Length; i++)
+            {
+                Palabra palabraLista = new Palabra(palabra[i], pista[i]);
+                palabras.Add(palabraLista);
+            }
+
+            return palabras;
         }
     }
 }

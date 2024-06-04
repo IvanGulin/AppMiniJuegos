@@ -109,5 +109,15 @@ namespace Trivial.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2_KBie5JQjt_transformed {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot_2-KBie5JQjt-transformed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

@@ -102,7 +102,8 @@
             // button4
             // 
             resources.ApplyResources(this.button4, "button4");
-            this.button4.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button4.FlatAppearance.CheckedBackColor = System.Drawing.Color.Silver;
+            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button4.Name = "button4";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click_1);
@@ -110,7 +111,8 @@
             // button3
             // 
             resources.ApplyResources(this.button3, "button3");
-            this.button3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button3.FlatAppearance.CheckedBackColor = System.Drawing.Color.Silver;
+            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button3.Name = "button3";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click_1);
@@ -118,7 +120,8 @@
             // button2
             // 
             resources.ApplyResources(this.button2, "button2");
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Silver;
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button2.Name = "button2";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
@@ -146,7 +149,8 @@
             // button1
             // 
             resources.ApplyResources(this.button1, "button1");
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Silver;
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
@@ -184,15 +188,15 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Trivial.Properties.Resources.ImagenDuda;
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Image = global::Trivial.Properties.Resources.ImagenDuda;
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
             // listBox1
             // 
-            this.listBox1.BackColor = System.Drawing.SystemColors.Window;
             resources.ApplyResources(this.listBox1, "listBox1");
+            this.listBox1.BackColor = System.Drawing.SystemColors.Window;
             this.listBox1.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Name = "listBox1";

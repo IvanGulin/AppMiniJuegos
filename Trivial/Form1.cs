@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
-using System.IO;
-using System.Reflection.Emit;
 using System.Windows.Forms;
 
 namespace Trivial
@@ -389,18 +387,5 @@ namespace Trivial
             }
         }
         #endregion
-    }
-
-    public class Pregunta
-    {
-        public string Titulo { get; set; }
-        public List<string> Opciones { get; set; }
-        public int Correcta { get; set; }
-        public Pregunta(string titulo, List<string> opciones, int correcta)
-        {
-            Titulo = titulo;
-            Opciones = opciones;
-            Correcta = correcta;
-        }
     }
 }

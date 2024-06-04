@@ -126,7 +126,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="button10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>937, 72</value>
+    <value>937, 71</value>
   </data>
   <data name="button10.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 24</value>
@@ -157,7 +157,7 @@
     <value>NoControl</value>
   </data>
   <data name="button9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>823, 72</value>
+    <value>823, 71</value>
   </data>
   <data name="button9.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 24</value>
@@ -187,7 +187,7 @@
     <value>NoControl</value>
   </data>
   <data name="button8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>712, 72</value>
+    <value>712, 71</value>
   </data>
   <data name="button8.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 24</value>
@@ -217,7 +217,7 @@
     <value>NoControl</value>
   </data>
   <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>950, 27</value>
+    <value>950, 26</value>
   </data>
   <data name="button7.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 45</value>
@@ -244,7 +244,7 @@
     <value>NoControl</value>
   </data>
   <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>840, 27</value>
+    <value>840, 26</value>
   </data>
   <data name="button6.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 45</value>
@@ -271,7 +271,7 @@
     <value>NoControl</value>
   </data>
   <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>727, 27</value>
+    <value>727, 26</value>
   </data>
   <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 45</value>
@@ -294,6 +294,9 @@
   <data name="button4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
+  <data name="button4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <data name="button4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
@@ -301,7 +304,7 @@
     <value>NoControl</value>
   </data>
   <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>566, 366</value>
+    <value>566, 365</value>
   </data>
   <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
     <value>255, 91</value>
@@ -327,6 +330,9 @@
   <data name="button3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
+  <data name="button3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
@@ -334,7 +340,7 @@
     <value>NoControl</value>
   </data>
   <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>256, 366</value>
+    <value>256, 365</value>
   </data>
   <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
     <value>255, 91</value>
@@ -360,6 +366,9 @@
   <data name="button2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
+  <data name="button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
@@ -367,7 +376,7 @@
     <value>NoControl</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>568, 243</value>
+    <value>568, 242</value>
   </data>
   <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
     <value>255, 91</value>
@@ -400,7 +409,7 @@
     <value>NoControl</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>66, 43</value>
+    <value>66, 42</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>114, 29</value>
@@ -436,7 +445,7 @@
     <value>NoControl</value>
   </data>
   <data name="acertadas.Location" type="System.Drawing.Point, System.Drawing">
-    <value>66, 72</value>
+    <value>66, 71</value>
   </data>
   <data name="acertadas.Size" type="System.Drawing.Size, System.Drawing">
     <value>114, 80</value>
@@ -472,7 +481,7 @@
     <value>NoControl</value>
   </data>
   <data name="preguntaTexto.Location" type="System.Drawing.Point, System.Drawing">
-    <value>257, 123</value>
+    <value>257, 122</value>
   </data>
   <data name="preguntaTexto.Size" type="System.Drawing.Size, System.Drawing">
     <value>564, 107</value>
@@ -501,6 +510,9 @@
   <data name="button1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
+  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
@@ -508,7 +520,7 @@
     <value>NoControl</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>256, 243</value>
+    <value>256, 242</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>255, 91</value>
@@ -534,9 +546,6 @@
   <data name="checkBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="checkBox1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="checkBox1.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -544,7 +553,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>711, 43</value>
+    <value>711, 42</value>
   </data>
   <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>15, 14</value>
@@ -567,9 +576,6 @@
   <data name="checkBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="checkBox2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="checkBox2.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -577,7 +583,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>824, 43</value>
+    <value>824, 42</value>
   </data>
   <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>15, 14</value>
@@ -600,9 +606,6 @@
   <data name="checkBox3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="checkBox3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="checkBox3.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -610,7 +613,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>934, 43</value>
+    <value>934, 42</value>
   </data>
   <data name="checkBox3.Size" type="System.Drawing.Size, System.Drawing">
     <value>15, 14</value>
@@ -646,7 +649,7 @@
     <value>NoControl</value>
   </data>
   <data name="labelTiempo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>439, 99</value>
+    <value>439, 98</value>
   </data>
   <data name="labelTiempo.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 24</value>
@@ -678,8 +681,11 @@
   <metadata name="timer2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>105, 17</value>
   </metadata>
+  <data name="pictureBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>821, 123</value>
+    <value>821, 122</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>112, 107</value>
@@ -702,6 +708,9 @@
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="listBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
   <data name="listBox1.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -712,7 +721,7 @@
     <value>18</value>
   </data>
   <data name="listBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>48, 155</value>
+    <value>48, 154</value>
   </data>
   <data name="listBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>175, 292</value>
@@ -735,11 +744,14 @@
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>43</value>
+  </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1084, 563</value>
+    <value>1084, 561</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -833,6 +845,9 @@
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>1100, 600</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Juego Trivial Iván Gulín</value>
