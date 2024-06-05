@@ -31,5 +31,10 @@ namespace Trivial
             this.palabra = palabra;
             this.pista = pista;
         }
+
+        public Palabra(string palabra)
+        {
+            this.palabra = palabra;
+        }
     }
 }

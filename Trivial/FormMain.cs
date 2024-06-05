@@ -18,6 +18,12 @@ namespace Trivial
             formPreguntas.ShowDialog();
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form3 wordle = new Form3(Wordle());
+            wordle.ShowDialog();
+        }
+
         // Juego Ahorcado
         private void button3_Click(object sender, EventArgs e)
         {
@@ -134,5 +140,33 @@ namespace Trivial
 
             return palabras;
         }
+
+        private List<Palabra> Wordle()
+        {
+            List<Palabra> wordle = new List<Palabra>();
+
+            string[] palabra = {
+                "PERSONA",
+                "AGUACATE",
+                "TECLADO",
+                "ESTUDIAR",
+                "TRABAJAR",
+                "CANCION",
+                "JUGAR",
+                "PROGRAMA",
+                "ALEMANIA"
+            };
+
+            // Añadir palabras a la lista
+            for (int i = 0; i < palabra.Length; i++)
+            {
+                Palabra p = new Palabra(palabra[i]);
+                wordle.Add(p);
+            }
+
+            return wordle;
+        }
+
+        
     }
 }

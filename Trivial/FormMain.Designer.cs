@@ -93,8 +93,9 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(215, 114);
             this.button2.TabIndex = 11;
-            this.button2.Text = "Preguntas";
+            this.button2.Text = "Wordle";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // panel2
             // 
