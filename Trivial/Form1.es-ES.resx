@@ -119,18 +119,18 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="button10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>921, 52</value>
+    <value>939, 91</value>
   </data>
   <data name="button9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>809, 52</value>
+    <value>827, 91</value>
   </data>
   <data name="button8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>697, 52</value>
+    <value>715, 91</value>
   </data>
   <data name="button7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAEj7SURBVHhe7Z15
+        vwAADr8BOAVTJAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAEj7SURBVHhe7Z15
         fFxlvf9PSyk7yUyWAQRpJmlSBPmh9aqoNDNJOpOteFHqjt7rVbjXDb3XCwomHRQFl+tyvdcrdAHaglqV
         JZOyCRaQRbYCbRqEtnRJM5OmGy0t3fP8npM8SHvmoU2TmTnPOfN+v17vV/Af9cX3nM/nmZlznscCAPMR
         TVVlomXiWaJ54hTRWnOx/HuZaKm5Unqt/Oefi5bqWdIFornmPvn3MdFc/YL8u1K5Srr5ALdIhe1LtRXi
@@ -446,7 +446,7 @@
 </value>
   </data>
   <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>935, 7</value>
+    <value>953, 46</value>
   </data>
   <data name="button6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -541,12 +541,12 @@
 </value>
   </data>
   <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>825, 7</value>
+    <value>843, 46</value>
   </data>
   <data name="button5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAFaYSURBVHhe7Z0J
+        vwAADr8BOAVTJAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAFaYSURBVHhe7Z0J
         uHZj2b/fiihDlHnKkKHQPFPhKw00SiWfBkkzFZonUuhrHjRoJk1KIYXmmRAKlZSZjGVW6f//nS+v9vu6
         9t7PXmvdw1rrdx7HeRz12s/zrPFe97rv676uecaY6llcribvJ58gnyNfIl8v95MHykPlkfI4+St5ovyz
         /Ku8chFvlv9vEfm3Rf+Oz54l+S6+k+/mN74k+U1+m21gW54tHy/ZRraVbTbGGGNMwB0kD8uHyafL3eR7
@@ -920,54 +920,50 @@
 </value>
   </data>
   <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>712, 7</value>
+    <value>730, 46</value>
   </data>
   <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>555, 375</value>
+    <value>563, 395</value>
   </data>
   <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>244, 375</value>
+    <value>252, 395</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>555, 254</value>
+    <value>563, 274</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>51, 23</value>
+    <value>59, 43</value>
   </data>
   <data name="acertadas.Location" type="System.Drawing.Point, System.Drawing">
-    <value>51, 52</value>
+    <value>59, 72</value>
   </data>
   <data name="preguntaTexto.Location" type="System.Drawing.Point, System.Drawing">
-    <value>244, 134</value>
+    <value>252, 154</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>244, 254</value>
+    <value>252, 274</value>
   </data>
   <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>696, 25</value>
+    <value>714, 64</value>
   </data>
   <data name="checkBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>809, 25</value>
+    <value>827, 64</value>
   </data>
   <data name="checkBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>919, 25</value>
+    <value>937, 64</value>
   </data>
   <data name="labelTiempo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>412, 108</value>
+    <value>420, 128</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pictureBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
+  <data name="listBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 194</value>
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>809, 134</value>
+    <value>817, 154</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1084, 561</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1059,7 +1055,8 @@
         AAAAAAAAAAAAAAAAAAAAgAj4f8pk2IEf6XdYAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
 </root>

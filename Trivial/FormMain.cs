@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace Trivial
@@ -9,26 +11,45 @@ namespace Trivial
         public FormMain()
         {
             InitializeComponent();
+
+            MaximizedBounds = Screen.FromHandle(Handle).WorkingArea;
+
+            Guna2PictureBox[] gunaPictureBoxes = { guna2PictureBox1, guna2PictureBox2, guna2PictureBox3 };
+
+            // Suscribir los eventos MouseEnter y MouseLeave para cada Guna2PictureBox
+            foreach (var pictureBox in gunaPictureBoxes)
+            {
+                pictureBox.MouseEnter += new EventHandler(GunaPictureBox_MouseEnter);
+                pictureBox.MouseLeave += new EventHandler(GunaPictureBox_MouseLeave);
+            }
         }
 
-        // Botón Juego Preguntas
+        //  Juego Preguntas.
         private void button1_Click_1(object sender, EventArgs e)
         {
             Form1 formPreguntas = new Form1(Preguntas());
             formPreguntas.ShowDialog();
         }
 
+        // Juego Wordle.
         private void button2_Click(object sender, EventArgs e)
         {
             Form3 wordle = new Form3(Wordle());
             wordle.ShowDialog();
         }
 
-        // Juego Ahorcado
+        // Juego Ahorcado.
         private void button3_Click(object sender, EventArgs e)
         {
             Form2 formAhorcado = new Form2(Palabras());
             formAhorcado.ShowDialog();
+        }
+
+        // Juego 4
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form4 queSera = new Form4(QueSera());
+            queSera.ShowDialog();
         }
 
         private List<Pregunta> Preguntas()
@@ -167,6 +188,56 @@ namespace Trivial
             return wordle;
         }
 
+        private Dictionary<String, List<String>> QueSera()
+        {
+            Dictionary<String, List<String>> palabrasPistas = new Dictionary<String, List<String>>();
+
+            // Agregar palabras y sus pistas
+            palabrasPistas.Add("PELOTA", new List<string> { "Se usa en deportes", "Es redonda", "Puede rebotar", "Usada en fútbol y baloncesto" });
+            palabrasPistas.Add("BOTELLA", new List<string> { "Contiene líquidos", "Tiene una tapa", "Puede ser de vidrio o plástico", "Puede ser reciclable" });
+            palabrasPistas.Add("TECLADO", new List<string> { "Se usa con computadoras", "Tiene letras y números", "Permite escribir", "Conectado por USB o inalámbrico" });
+            palabrasPistas.Add("SOFÁ", new List<string> { "Mueble para sentarse", "Generalmente en la sala", "Puede ser de varios tamaños", "Puede ser reclinable" });
+            palabrasPistas.Add("CAMA", new List<string> { "Mueble para dormir", "Tiene colchón", "Se encuentra en el dormitorio", "Puede ser individual o matrimonial" });
+
+            return palabrasPistas;
+        }
+
         
+
+        #region Botones (Cerrar, maximizar, minimizar)
+        private void guna2PictureBox1_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void guna2PictureBox2_Click(object sender, EventArgs e)
+        {
+            if (WindowState == FormWindowState.Normal) WindowState = FormWindowState.Maximized;
+            else WindowState = FormWindowState.Normal;
+        }
+
+        private void guna2PictureBox3_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
+
+        // Manejador del evento MouseEnter
+        private void GunaPictureBox_MouseEnter(object sender, EventArgs e)
+        {
+            if (sender is Guna2PictureBox pictureBox)
+            {
+                pictureBox.BackColor = Color.Purple; // Cambiar al color deseado
+            }
+        }
+
+        // Manejador del evento MouseLeave
+        private void GunaPictureBox_MouseLeave(object sender, EventArgs e)
+        {
+            if (sender is Guna2PictureBox pictureBox)
+            {
+                pictureBox.BackColor = Color.Transparent; // Restaurar al color original o a otro color deseado
+            }
+        }
+        #endregion
     }
 }

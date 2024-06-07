@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
@@ -18,6 +19,17 @@ namespace Trivial
         public Form2(List<Palabra> palabras)
         {
             InitializeComponent();
+
+            MaximizedBounds = Screen.FromHandle(Handle).WorkingArea;
+
+            Guna2PictureBox[] gunaPictureBoxes = { guna2PictureBox1, guna2PictureBox2, guna2PictureBox3, guna2PictureBox4 };
+
+            // Suscribir los eventos MouseEnter y MouseLeave para cada Guna2PictureBox
+            foreach (var pictureBox in gunaPictureBoxes)
+            {
+                pictureBox.MouseEnter += new EventHandler(GunaPictureBox_MouseEnter);
+                pictureBox.MouseLeave += new EventHandler(GunaPictureBox_MouseLeave);
+            }
 
             // Mensaje de como jugar.
             MessageBox.Show("COMO JUGAR: \n" +
@@ -366,6 +378,42 @@ namespace Trivial
         private void LetraM_Click(object sender, EventArgs e)
         {
             LetrasClick(LetraM);
+        }
+        #endregion
+
+        #region Botones (Cerrar, maximizar, minimizar)
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void guna2PictureBox2_Click(object sender, EventArgs e)
+        {
+            if (WindowState == FormWindowState.Normal) WindowState = FormWindowState.Maximized;
+            else WindowState = FormWindowState.Normal;
+        }
+
+        private void guna2PictureBox3_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
+
+        // Manejador del evento MouseEnter
+        private void GunaPictureBox_MouseEnter(object sender, EventArgs e)
+        {
+            if (sender is Guna2PictureBox pictureBox)
+            {
+                pictureBox.BackColor = Color.Purple; // Cambiar al color deseado
+            }
+        }
+
+        // Manejador del evento MouseLeave
+        private void GunaPictureBox_MouseLeave(object sender, EventArgs e)
+        {
+            if (sender is Guna2PictureBox pictureBox)
+            {
+                pictureBox.BackColor = Color.Transparent; // Restaurar al color original o a otro color deseado
+            }
         }
         #endregion
     }

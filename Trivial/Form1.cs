@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
@@ -18,6 +19,17 @@ namespace Trivial
         public Form1(List<Pregunta> preguntas)
         {
             InitializeComponent();
+
+            MaximizedBounds = Screen.FromHandle(Handle).WorkingArea;
+
+            Guna2PictureBox[] gunaPictureBoxes = { guna2PictureBox1, guna2PictureBox2, guna2PictureBox3, guna2PictureBox4 };
+
+            // Suscribir los eventos MouseEnter y MouseLeave para cada Guna2PictureBox
+            foreach (var pictureBox in gunaPictureBoxes)
+            {
+                pictureBox.MouseEnter += new EventHandler(GunaPictureBox_MouseEnter);
+                pictureBox.MouseLeave += new EventHandler(GunaPictureBox_MouseLeave);
+            }
 
             // Configuración de los tamaños de las imagenes.
             ResizeImageAndAssignToButton(button5, Properties.Resources._50_50, new Size(30, 30));
@@ -238,7 +250,7 @@ namespace Trivial
                 preguntas.RemoveAt(preguntaActual);
 
                 // Llamar a la función Pregunta para generar una nueva pregunta.
-                Pregunta();
+                SiguientePregunta();
             }
             // Si el comodín esta deshabilitado muestra el siguiente mensaje.
             else
@@ -270,9 +282,8 @@ namespace Trivial
                 MessageBox.Show("Ya has utilizado este comodín, no puedes volver a usarlo.");
             }
         }
+
         #endregion
-
-
 
         #region Comodín de recuperación de comodines.
         // Son tres botones que cada uno de ellos devuelve la posibilidad de usar cada comodín de los anteriores (solo una vez).
@@ -384,6 +395,43 @@ namespace Trivial
                 timer1.Stop();
                 timer2.Stop();
                 labelTiempo.Visible = false;
+            }
+        }
+        #endregion
+
+
+        #region Botones (Cerrar, maximizar, minimizar)
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void guna2PictureBox2_Click(object sender, EventArgs e)
+        {
+            if (WindowState == FormWindowState.Normal) WindowState = FormWindowState.Maximized;
+            else WindowState = FormWindowState.Normal;
+        }
+
+        private void guna2PictureBox3_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
+
+        // Manejador del evento MouseEnter
+        private void GunaPictureBox_MouseEnter(object sender, EventArgs e)
+        {
+            if (sender is Guna2PictureBox pictureBox)
+            {
+                pictureBox.BackColor = Color.Purple; // Cambiar al color deseado
+            }
+        }
+
+        // Manejador del evento MouseLeave
+        private void GunaPictureBox_MouseLeave(object sender, EventArgs e)
+        {
+            if (sender is Guna2PictureBox pictureBox)
+            {
+                pictureBox.BackColor = Color.Transparent; // Restaurar al color original o a otro color deseado
             }
         }
         #endregion
